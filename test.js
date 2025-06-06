@@ -6,7 +6,7 @@ function checkWord(word) {
     for (let i = 0; i < word.length; i++) {
         let letter = word[i];
 
-        if (letter == ' ') { continue; }
+        if (letter == ' ') { continue; } 
         
         if (tempStr.indexOf(letter) == -1) {
             tempStr += letter;
